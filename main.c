@@ -7,12 +7,8 @@
 #include "stm32f10x_dma.h"
 #include "stm32f10x_usart.h"
 #include "misc.h"
-#include "string.h"
-#include "stdio.h"
-
-#include "sysclk.h"
-#include "adc_dma.h"
-#include "bldc.h"
+//this changes is from atif's laptop
+//hi this is just a testing clone
 
 #ifdef UART_COMM_DEBUG
 char printDataString[50] = "buffer here\r\n";//{'\0',};
